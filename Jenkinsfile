@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build'
-        sh path.sh
+        sh 'path.sh'
       }
     }
 
