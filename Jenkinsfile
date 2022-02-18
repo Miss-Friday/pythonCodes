@@ -11,7 +11,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Test'
-        echo 'Test Completed'
+        pwd(tmp: true)
       }
     }
 
